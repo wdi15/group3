@@ -1,17 +1,38 @@
-.container {
-	background-image: 
-}
-img{
-	width:120%;
-	height: 30%;
-	overflow: hidden;
-	opacity: 1.0;
-	margin-left: -126px;
-	margin-top: -30px;
+.navbar {
 	position: relative;
+	width: 100vw;
+}
+
+.container {
+	margin: 0;
+	padding: 0;
+}
+
+/*px
+em
+rem
+vh
+vw
+%*/
+
+.banner-container {
+	position: relative;
+	width: 100vw;
+	height: 600px;
+}
+
+.banner-container img {
+	position: absolute;
+	height: 100%;
+	width: 100%;
 	-webkit-filter: grayscale; 
 	-webkit-filter: brightness(50%);
-} 
+}
+
+.banner-container h1 {
+	position: absolute;
+	color: white;
+}
 
 img:hover{
 	opacity:0.9;
@@ -27,9 +48,8 @@ img:hover{
 
 
 .jumbotron {
-	position: absolute;
+	position: relative;
 	background: white;
-	margin-top: -250px;
 	height: 500px;
 }
 
@@ -43,3 +63,4 @@ img:hover{
   color: white;
   background-color: blue;
   padding: 10px 40px;
+}
