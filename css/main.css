@@ -1,17 +1,38 @@
-body {
-	background-color: #00FFFF;
+.container {
+	background-image: 
+}
+img{
+	width:120%;
+	height: 30%;
+	overflow: hidden;
+	opacity: 1.0;
+	margin-left: -126px;
+	margin-top: -30px;
+	position: relative;
+	-webkit-filter: grayscale; 
+	-webkit-filter: brightness(50%);
+} 
+
+img:hover{
+	opacity:0.9;
+}
+.center {
+	position: relative;
+}
+.text h1, h2, p {
+	z-index: 7;
+	font-size: 20px;
+	position: relative;
 }
 
-.jumbotron{
-	background-color: #FF00FF
+
+.jumbotron {
+	position: absolute;
+	background: white;
+	margin-top: -250px;
+	height: 500px;
 }
 
-.nav, .navbar{
-	background-color: #FF00FF
+.jumbotron h1, p{
+	text-align: center;
 }
-
-.navbar-brand{
-	background-color: #00BFFF
-}
-
-
