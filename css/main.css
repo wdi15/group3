@@ -1,3 +1,17 @@
 body {
-	background-color: royalblue;
+	background-color: #00FFFF;
 }
+
+.jumbotron{
+	background-color: #FF00FF
+}
+
+.nav, .navbar{
+	background-color: #FF00FF
+}
+
+.navbar-brand{
+	background-color: #00BFFF
+}
+
+
