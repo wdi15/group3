@@ -1,0 +1,16 @@
+*{
+	box-sizing;border-box;
+}
+
+#faq-subtitle {
+	background: transparent;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.faq-main {
+	background: white;
+	
+}
