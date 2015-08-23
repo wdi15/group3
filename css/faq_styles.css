@@ -14,3 +14,49 @@
 	background: white;
 	
 }
+
+.container {
+	background-image: 
+}
+img{
+	width:120%;
+	height: 30%;
+	overflow: hidden;
+	opacity: 1.0;
+	margin-left: -126px;
+	margin-top: -30px;
+	position: relative;
+	-webkit-filter: grayscale; 
+	-webkit-filter: brightness(50%);
+} 
+
+img:hover{
+	opacity:0.9;
+}
+.center {
+	position: relative;
+}
+.text h1, h2, p {
+	z-index: 7;
+	font-size: 20px;
+	position: relative;
+}
+
+
+.jumbotron {
+	position: absolute;
+	background: white;
+	margin-top: -250px;
+	height: 500px;
+}
+
+.jumbotron h1, p{
+	text-align: center;
+}
+
+.btn {
+  border-radius: 15px;
+  border-color: blue;
+  color: white;
+  background-color: blue;
+  padding: 10px 40px;
