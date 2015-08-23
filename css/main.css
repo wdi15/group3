@@ -8,34 +8,64 @@
 	padding: 0;
 }
 
-/*px
-em
-rem
-vh
-vw
-%*/
-
 .banner-container {
 	position: relative;
 	width: 100vw;
-	height: 600px;
+	height: 800px;
+	margin-top: -20px;
 }
 
 .banner-container img {
 	position: absolute;
 	height: 100%;
-	width: 100%;
+	width: 100vw;
 	-webkit-filter: grayscale; 
 	-webkit-filter: brightness(50%);
 }
 
-.banner-container h1 {
+.banner-container h1, h2 {
 	position: absolute;
 	color: white;
+	font-family: Cambria, Georgia, serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.3999996185303px;
 }
 
+.button {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 25px;
+  background: #387B8B;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position:relative;
+  left: 540px;
+  top: -60px;
+}
+
+.button:hover {
+  background: #5f95a1;
+  text-decoration: none;
+  color:#ffffff;
+}
+
+.banner-container h1 {
+	font-size: 50px;
+	padding: 260 0 0 60;
+}
+
+.banner-container h2 {
+	font-size: 18px;
+	padding: 330 0 0 60;
+}
 img:hover{
-	opacity:0.9;
+	opacity:0.6;
 }
 .center {
 	position: relative;
@@ -46,21 +76,49 @@ img:hover{
 	position: relative;
 }
 
-
 .jumbotron {
 	position: relative;
 	background: white;
-	height: 500px;
+	margin-top: -260px;
+	width: 100vw;
 }
 
-.jumbotron h1, p{
+.jumbotron h1 {
+	color: #387B8B;
+	font-size: 50px;
+	font-family: Cambria, Georgia, serif;
 	text-align: center;
 }
 
+.jumbotron p {
+	text-align: justify;
+	font-family: Cambria, Georgia, serif;
+}
+
+.row img {
+	margin-left: 60px;
+	padding-right: 100px;
+	margin-bottom: 40px;
+}
+
+
+h6 {
+	text-align: center;
+	font-family: Cambria, Georgia, serif;
+	color: white;
+	font-size: 15px;
+	padding-top: 20px;
+}
 .btn {
   border-radius: 15px;
   border-color: blue;
   color: white;
   background-color: blue;
   padding: 10px 40px;
+}
+
+footer {
+	width: 100vw;
+	height: 100px;
+	background-color: #F8B42F; 
 }
