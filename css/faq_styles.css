@@ -14,3 +14,18 @@
 p {
 	font-size: 17px;
 }
+
+.navbar {
+	position: relative;
+	width: 100vw;
+	border-radius: 0px;
+	border: none;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #F8B42F;  
+}
+
+.navbar-default .navbar-nav > li > a {
+   color: #387B8B; 
+}
