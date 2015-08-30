@@ -6,6 +6,9 @@
 	background-color:#F8B42F;
 }
 
+.row {
+	margin-left: 2%;
+}
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 color: black;  }
 
